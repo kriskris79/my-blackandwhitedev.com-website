@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import Jobskills from "./components/Jobskills";
 import Textanimation from "./components/Textanimation";
+import Contact from "./components/Contact";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <div className="grid3"><Textanimation/></div>
             {/*<div className="grid3">grid3 </div>*/}
             <div className="grid4"><Jobskills/></div>
+            <div className="grid5"><Contact/></div>
         </div>
     );
 }

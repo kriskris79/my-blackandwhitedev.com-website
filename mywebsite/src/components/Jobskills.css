@@ -5,14 +5,14 @@
 /*Photoshop */
 
 
-/*body {*/
-/*    margin: 0;*/
-/*    background-color: black;*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    height: 100vh;*/
-/*    width: 100vw;*/
-/*}*/
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
 
 .container {
     height: 100vh;
@@ -214,4 +214,145 @@ p {
 
 .fa-plane {
     font-size: 16px;
+}
+
+
+/* Extra small devices (older Phones) */
+@media screen and (max-width: 410px) {
+    body {
+        margin: 0;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .container {
+        height: 100vh;
+        width: 100vw;
+        max-height: 600px;
+        max-width: 100vw;
+        min-height: 600px;
+        min-width: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    .panel {
+        height: 200px;
+        width: 140px;
+        position: relative;
+        margin: 5px;
+    }
+
+    .panel:last-child {
+        margin-right: 0;
+    }
+
+    .panel:hover .card {
+        filter: blur(1.5);
+    }
+
+    .panel:hover .card1 {
+        background-size: 215% 135%;
+    }
+
+    .panel:hover .card2 {
+        background-size: 115% 115%;
+    }
+
+    .panel:hover .card3 {
+        background-size: 155% 115%;
+    }
+
+    .panel:hover .card4 {
+        background-size: 155% 115%;
+    }
+
+    .panel:hover .card5 {
+        background-size: 155% 115%;
+    }
+
+    .panel:hover .title {
+        color: rgba(255, 255, 255, 0.2);
+    }
+
+    .panel:hover .border {
+        border: 1px solid darkblue;
+    }
+
+    .panel:hover .slide {
+        bottom: 0px;
+    }
+
+    .panel:hover .ring:before,
+    .panel:hover .ring:after {
+        transform: translateX(-50%) translateY(-50%) rotate(720deg);
+    }
+
+    .ring,
+    .card,
+    .border,
+    .slide,
+    .line {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ring {
+        color: #fffbf1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-size: 100px;
+    }
+
+    .card {
+        background: #f0ead6;
+        position: relative;
+        transition: all 1s;
+        height: 100px;
+        width: 100px;
+        border: 1px solid darkblue;
+    }
+
+    .card1 {
+        background-image: url("../assets/js.jpg");
+        background-repeat: no-repeat;
+        background-size: 200% 120%;
+        opacity: 0.4;
+    }
+
+    .card2 {
+        background-image: url("../assets/css.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        opacity: 0.8;
+    }
+
+    .card3 {
+        background-image: url("../assets/html.jpg");
+        background-repeat: no-repeat;
+        background-size: 140% 100%;
+        opacity: 0.4;
+    }
+
+    .card4 {
+        background-image: url("../assets/react.jpg");
+        background-repeat: no-repeat;
+        background-size: 140% 100%;
+        opacity: 0.4;
+    }
+
+    .card5 {
+        background-image: url("../assets/photoshop.jpg");
+        background-repeat: no-repeat;
+        background-size: 140px;
+    }
 }

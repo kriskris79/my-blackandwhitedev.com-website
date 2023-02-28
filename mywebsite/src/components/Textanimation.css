@@ -1,8 +1,8 @@
-/*body {*/
-/*    background: rgb(43,78,104);*/
-/*    color: rgb(220,220,220);*/
-/*    font-family: 'Fira Code', monospace;*/
-/*}*/
+body {
+    background: rgb(43,78,104);
+    color: rgb(220,220,220);
+    font-family: 'Fira Code', monospace;
+}
 body {
     margin: 0;
     padding: 0;
