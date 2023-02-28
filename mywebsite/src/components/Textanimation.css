@@ -2,16 +2,17 @@
 
 
 
-body {
-    background: rgb(43,78,104);
-    color: rgb(220,220,220);
-    font-family: 'Fira Code', monospace;
-}
+/*body {*/
+/*    background: rgb(43,78,104);*/
+/*    !*color: rgb(220,220,220);*!*/
+/*    font-family: 'Fira Code', monospace;*/
+/*}*/
 
 .typewriter {
     position: absolute;
     top: 35%;
     left: 10%;
+    color: rgb(220,220,220);
 }
 
 .typewriter h1 {

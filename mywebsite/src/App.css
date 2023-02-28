@@ -15,16 +15,23 @@
     justify-content: center;
     align-items: center;
     background-color: black;
-
+height: 200px;
 }
 
 .grid2 {
+    height: 200px;
     display: flex;
+    background-color: black;
 
 
 }
 .grid3 {
+    height: 400px;
     display: flex;
-
-
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: center;
+background-color: black;
 }
