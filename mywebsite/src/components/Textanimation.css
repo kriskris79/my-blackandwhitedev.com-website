@@ -1,13 +1,14 @@
-
-
-
-
 /*body {*/
 /*    background: rgb(43,78,104);*/
-/*    !*color: rgb(220,220,220);*!*/
+/*    color: rgb(220,220,220);*/
 /*    font-family: 'Fira Code', monospace;*/
 /*}*/
-
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+}
 .typewriter {
     position: absolute;
     top: 35%;
@@ -19,16 +20,30 @@
     border-right: 1px solid white;
     white-space: nowrap;
     overflow: hidden;
-    width: 390px;
-    animation: typewriter 2s steps(25) 1s 1 normal both;
+    width: 360px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(26) 1s 1 normal both;
+}
+
+.typewriter h1 {
+    border-right: 1px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 360px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(26) 1s 1 normal both;
 }
 
 .typewriter #line-1 {
     border-right: 1px solid white;
     white-space: nowrap;
     overflow: hidden;
-    width: 425px;
-    animation: typewriter 3s steps(40) 1s 1 normal both;
+    width: 490px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 3s steps(49) 1s 1 normal both;
     animation-delay: 3.5s;
 }
 
@@ -37,8 +52,26 @@
     white-space: nowrap;
     overflow: hidden;
     width: 405px;
+    white-space: nowrap;
+    overflow: hidden;
     animation: typewriter 3s steps(40) 1s 1 normal both;
     animation-delay: 7s;
+}
+#line-3 {
+    border-right: 1px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 385px;
+    animation: typewriter 3s steps(40) 1s 1 normal both;
+    animation-delay: 10.5s;
+}
+#line-4 {
+    border-right: 1px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 550px;
+    animation: typewriter 3s steps(48) 1s 1 normal both;
+    animation-delay: 14s;
 }
 
 @keyframes typewriter {
@@ -56,8 +89,6 @@
         border: none;
     }
 }
-
-
 
 
 @keyframes fadeIn {

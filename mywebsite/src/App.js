@@ -11,8 +11,9 @@ function App() {
         <div className="container">
             <div className="grid1"><Navbar/></div>
 
-            <div className="grid2"><Textanimation/></div>
-            <div className="grid3"><Jobskills/></div>
+            <div className="grid3"><Textanimation/></div>
+            {/*<div className="grid3">grid3 </div>*/}
+            <div className="grid4"><Jobskills/></div>
         </div>
     );
 }
