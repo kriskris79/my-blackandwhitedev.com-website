@@ -7,8 +7,6 @@ function Jobskills () {
 
 
 <div className="cards">
-        {/*<div className="grid3">*/}
-
             <div className="panel">
         <div className="ring">
             <div className="card card1"></div>
@@ -72,10 +70,6 @@ function Jobskills () {
 
 
 </div>
-// </div>
-
-
-
     );
 }
 
