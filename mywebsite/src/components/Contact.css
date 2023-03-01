@@ -3,21 +3,23 @@
     align-items: center;
     align-content: center;
     flex-direction: column;
-    margin: 0;
     padding: 0;
+    width: 700px;
+    margin-left: 25%;
+
     /*width: 100%;*/
     /*height: 100vh;*/
 }
 
-form {
-    margin: 50px;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    /*width: 700px;*/
-    font-size: 16px;
+/*form {*/
+/*    margin: 50px;*/
+/*    display: flex;*/
+/*    align-items: flex-start;*/
+/*    flex-direction: column;*/
+/*    !*width: 700px;*!*/
+/*    font-size: 16px;*/
 
-}
+/*}*/
 
 input {
     width: 100%;
@@ -68,7 +70,7 @@ input[type="submit"] {
 
 /*Extra extra small devices (older Phones)*/
 @media screen and (max-width: 410px) {
-    .form {
+    .StyledContactForm {
 
         width: 300px;
 
@@ -78,7 +80,7 @@ input[type="submit"] {
 
 /* Extra small devices (Phones) */
 @media screen and (min-width: 411px) and (max-width: 576px) {
-    .form {
+    .StyledContactForm {
 
         width: 311px;
 
@@ -87,7 +89,7 @@ input[type="submit"] {
 
 /* Small devices (Tablets) */
 @media screen and (min-width: 577px) and (max-width: 768px) {
-    .form {
+    .StyledContactForm {
 
         width: 477px;
         font-size: 16px;
@@ -95,7 +97,7 @@ input[type="submit"] {
 }
 /* Medium devices (Desktops) */
 @media screen and (min-width: 769px) and (max-width: 992px) {
-    .form {
+    .StyledContactForm {
 
         width: 569px;
 
@@ -104,7 +106,7 @@ input[type="submit"] {
 
 /* Large devices (Desktops) */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
-    .form {
+    .StyledContactForm {
 
         width: 793px;
 
@@ -113,7 +115,7 @@ input[type="submit"] {
 
 /* Extra large devices (Desktops) */
 @media screen and (min-width: 1201px) {
-    .form {
+    .StyledContactForm {
 
         width: 800px;
 
