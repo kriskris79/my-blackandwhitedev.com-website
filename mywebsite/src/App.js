@@ -37,11 +37,11 @@ const App = () => {
 
             <div className="container">
                 <div className="row">
-                    <div className="flex1"><Navbar/></div>
-                    <div className="flex2"><Textanimation/></div>
-                    <div className="flex3"><Jobskills/></div>
+                    <div className="flex1"><Navbar/>flex1_test</div>
+                    <div className="flex2"><Textanimation/>flex2_test</div>
+                    <div className="flex3"><Jobskills/>flex3_test</div>
 
-                    <div className="flex4"><Contact/></div>
+                    <div className="flex4"><Contact/>flex4_test</div>
                     <div className="item">Item 5</div>
                     <div className="item">Item 6</div>
                 </div>

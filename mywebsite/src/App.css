@@ -80,14 +80,20 @@
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex2 {
     flex: 1;
-    background-color: lightblue;
+    background-color: green;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .flex3 {
     flex: 1;
