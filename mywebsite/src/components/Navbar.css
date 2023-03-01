@@ -1,17 +1,20 @@
-.body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background: orangered;
-}
+/*.body {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    width: 100%;*/
+/*    height: 100vh;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    background: orangered;*/
+/*}*/
 
 .glow-on-hover {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 220px;
     height: 50px;
     border: none;
@@ -85,44 +88,50 @@
         font-size: 12px;
         margin-top: 12px;
     }
-    .body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+    /*.body {*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    justify-content: center;*/
+    /*    align-items: center;*/
+    /*}*/
 }
 
 /* Extra small devices (Phones) */
 @media screen and (min-width: 411px) and (max-width: 576px) {
     .glow-on-hover {
-        width: 220px;
+        width: 200px;
         margin-right: 15px;
         font-size: 14px;
         margin-top: 20px;
     }
-    .body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+    /*.body {*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    justify-content: center;*/
+    /*    align-items: center;*/
+    /*}*/
 }
 
 /* Small devices (Tablets) */
 @media screen and (min-width: 577px) and (max-width: 768px) {
     .glow-on-hover {
-        width: 240px;
+        width: 200px;
         margin-right: 20px;
         font-size: 16px;
         margin-top: 20px;
     }
+    /*.body {*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    justify-content: center;*/
+    /*    align-items: center;*/
+    /*}*/
 }
 
 /* Medium devices (Desktops) */
 @media screen and (min-width: 769px) and (max-width: 992px) {
     .glow-on-hover {
-        width: 260px;
+        width: 200px;
         margin-right: 25px;
         font-size: 18px;
         margin-top: 20px;
