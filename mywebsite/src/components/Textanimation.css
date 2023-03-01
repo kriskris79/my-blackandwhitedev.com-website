@@ -17,18 +17,19 @@
     justify-content: flex-end;
     align-items: center;
     /*flex-wrap: wrap;*/
-    flex-direction: column;
-    align-content: flex-end;
+    /*flex-direction: column;*/
+    align-content: center;
 
 }
 
-.h1 {
-    border-right: 1px solid white;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 360px;
-    animation: typewriter 2s steps(26) 1s 1 normal both;
-}
+/*.h1 {*/
+/*    margin-top: 20px;*/
+/*    border-right: 1px solid white;*/
+/*    white-space: nowrap;*/
+/*    overflow: hidden;*/
+/*    width: 360px;*/
+/*    animation: typewriter 2s steps(26) 1s 1 normal both;*/
+/*}*/
 
 .typewriter h1 {
     border-right: 1px solid white;
@@ -42,7 +43,7 @@
     border-right: 1px solid white;
     white-space: nowrap;
     overflow: hidden;
-    width: 490px;
+    width: 360px;
     animation: typewriter 3s steps(49) 1s 1 normal both;
     animation-delay: 3.5s;
 }
@@ -51,7 +52,7 @@
     border-right: 1px solid white;
     white-space: nowrap;
     overflow: hidden;
-    width: 405px;
+    width: 360px;
     animation: typewriter 3s steps(40) 1s 1 normal both;
     animation-delay: 7s;
 }
@@ -59,7 +60,7 @@
     border-right: 1px solid white;
     white-space: nowrap;
     overflow: hidden;
-    width: 385px;
+    width: 360px;
     animation: typewriter 3s steps(40) 1s 1 normal both;
     animation-delay: 10.5s;
 }
@@ -67,7 +68,7 @@
     border-right: 1px solid white;
     white-space: nowrap;
     overflow: hidden;
-    width: 550px;
+    width: 360px;
     animation: typewriter 3s steps(48) 1s 1 normal both;
     animation-delay: 14s;
 }

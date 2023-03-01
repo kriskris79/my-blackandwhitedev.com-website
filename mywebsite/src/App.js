@@ -37,7 +37,7 @@ const App = () => {
 
             <div className="container">
                 <div className="row">
-                    <div className="flex1"><Navbar/>flex1_test</div>
+                    <div className="flex1"><Navbar/></div>
                     <div className="flex2"><Textanimation/>flex2_test</div>
                     <div className="flex3"><Jobskills/>flex3_test</div>
 
