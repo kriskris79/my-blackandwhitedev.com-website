@@ -3,6 +3,10 @@
     align-items: center;
     align-content: center;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+    /*width: 100%;*/
+    /*height: 100vh;*/
 }
 
 form {
@@ -10,7 +14,7 @@ form {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    width: 500px;
+    /*width: 700px;*/
     font-size: 16px;
 
 }
@@ -32,8 +36,8 @@ textarea {
     max-width: 100%;
     min-width: 100%;
     width: 100%;
-    max-height: 100px;
-    min-height: 100px;
+    /*max-height: 100px;*/
+    /*min-height: 100px;*/
     padding: 7px;
     outline: none;
     border-radius: 5px;
@@ -56,4 +60,62 @@ input[type="submit"] {
     color: white;
     border: none;
     margin-bottom: 20px;
+}
+
+
+
+/* Media Queries */
+
+/*Extra extra small devices (older Phones)*/
+@media screen and (max-width: 410px) {
+    .form {
+
+        width: 300px;
+
+
+    }
+}
+
+/* Extra small devices (Phones) */
+@media screen and (min-width: 411px) and (max-width: 576px) {
+    .form {
+
+        width: 311px;
+
+    }
+}
+
+/* Small devices (Tablets) */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .form {
+
+        width: 477px;
+        font-size: 16px;
+    }
+}
+/* Medium devices (Desktops) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .form {
+
+        width: 569px;
+
+    }
+}
+
+/* Large devices (Desktops) */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .form {
+
+        width: 793px;
+
+    }
+}
+
+/* Extra large devices (Desktops) */
+@media screen and (min-width: 1201px) {
+    .form {
+
+        width: 800px;
+
+    }
 }
