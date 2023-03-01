@@ -6,8 +6,8 @@ function Jobskills () {
 
 
 
-<div className="grid-container">
-        <div className="grid3">
+<div className="cards">
+        {/*<div className="grid3">*/}
 
             <div className="panel">
         <div className="ring">
@@ -72,7 +72,7 @@ function Jobskills () {
 
 
 </div>
-</div>
+// </div>
 
 
 

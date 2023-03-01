@@ -42,9 +42,6 @@ const Contact = () => {
     return (
         <div className="StyledContactForm" id="contact">
             <form ref={form} onSubmit={sendEmail} id="textform ">
-                <div className="form-header">
-                    <p>Please fill out the form below to contact us:</p>
-                </div>
                 <label>Your Name</label>
                 <input type="text" name="user_name" aria-label="write your name "  placeholder="Type your name"/>
                 <label>Your Email</label>

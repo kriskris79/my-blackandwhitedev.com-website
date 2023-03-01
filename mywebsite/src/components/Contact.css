@@ -5,22 +5,15 @@
     align-content: center;
     flex-direction: column;
 }
-form-header{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 400px;
-    font-size: 16px;
-    margin-left: 20px;
 
-}
 form {
+    margin: 50px;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    width: 400px;
+    width: 500px;
     font-size: 16px;
-    margin-left: 20px;
+
 }
 
 input {
@@ -54,6 +47,7 @@ textarea:focus {
 
 label {
     margin-top: 1rem;
+    color: white;
 }
 
 input[type="submit"] {
