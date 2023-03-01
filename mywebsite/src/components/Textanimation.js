@@ -3,7 +3,7 @@ import './Textanimation.css';
 
 function Textanimation () {
     return (
-        <div className="grid3">
+        // <div className="grid3">
             <div className="typewriter">
                 <h1>Hi there, I'm Kris.</h1>
                 <p id="line-1">I worked through 1000+ hours of bootcamp structure,</p>
@@ -12,7 +12,7 @@ function Textanimation () {
                 <p id="line-4">challenges to achieve lasting impacts on user experience.</p>
 
             </div>
-        </div>
+        // </div>
     );
 }
 

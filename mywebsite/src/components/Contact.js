@@ -41,17 +41,15 @@ const Contact = () => {
 
     return (
         <div className="StyledContactForm" id="contact">
-
             <form ref={form} onSubmit={sendEmail} id="textform ">
+                <div className="form-header">
+                    <p>Please fill out the form below to contact us:</p>
+                </div>
                 <label>Your Name</label>
                 <input type="text" name="user_name" aria-label="write your name "  placeholder="Type your name"/>
                 <label>Your Email</label>
                 <input type="email" name="user_email" aria-label="write your email"  placeholder="mqo@example.com"/>
-                <label>Date you need me DD/MM/YYYY</label>
-                <textarea name="date" aria-label="write your date when do you need me " placeholder="12/01/2023"/>
-                <label>Location</label>
-                <textarea name="location" aria-label="write your location "  placeholder="any destination"/>
-                <label>Any additional details you would like to share ? </label>
+                <label>Your Message </label>
                 <textarea name="message" aria-label="write the massage  "  placeholder="up to you :) " />
                 <input type="submit" value="Send"   />
             </form>
