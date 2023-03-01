@@ -1,14 +1,14 @@
-body {
-    background: rgb(43,78,104);
-    color: rgb(220,220,220);
-    font-family: 'Fira Code', monospace;
-}
-body {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: black;
-}
+/*body {*/
+/*    background: rgb(43,78,104);*/
+/*    color: rgb(220,220,220);*/
+/*    font-family: 'Fira Code', monospace;*/
+/*}*/
+/*body {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    overflow: hidden;*/
+/*    background: black;*/
+/*}*/
 .typewriter {
     position: absolute;
     top: 35%;
@@ -16,13 +16,11 @@ body {
     color: rgb(220,220,220);
 }
 
-.typewriter h1 {
+.h1 {
     border-right: 1px solid white;
     white-space: nowrap;
     overflow: hidden;
     width: 360px;
-    white-space: nowrap;
-    overflow: hidden;
     animation: typewriter 2s steps(26) 1s 1 normal both;
 }
 
@@ -31,8 +29,6 @@ body {
     white-space: nowrap;
     overflow: hidden;
     width: 360px;
-    white-space: nowrap;
-    overflow: hidden;
     animation: typewriter 2s steps(26) 1s 1 normal both;
 }
 
@@ -41,8 +37,6 @@ body {
     white-space: nowrap;
     overflow: hidden;
     width: 490px;
-    white-space: nowrap;
-    overflow: hidden;
     animation: typewriter 3s steps(49) 1s 1 normal both;
     animation-delay: 3.5s;
 }
@@ -52,8 +46,6 @@ body {
     white-space: nowrap;
     overflow: hidden;
     width: 405px;
-    white-space: nowrap;
-    overflow: hidden;
     animation: typewriter 3s steps(40) 1s 1 normal both;
     animation-delay: 7s;
 }
