@@ -1,12 +1,9 @@
 
-body {
-    font-family: 'Raleway', sans-serif;
-    height: 100vh;
-    color: #ffffff;
-    overflow:hidden;
-}
 
 .container {
+    overflow:hidden;
+    font-family: 'Raleway', sans-serif;
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,18 +32,9 @@ h1 {
 /* Extra extra small devices (older Phones) */
 @media screen and (max-width: 410px) {
     h1 {
-        font-size: 12px;
+        font-size: 15px;
     }
-    .glow-on-hover {
-        width: 200px;
-        margin-right: 10px;
-        font-size: 12px;
-        margin-top: 12px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
+
 }
 
 /* Extra small devices (Phones) */
