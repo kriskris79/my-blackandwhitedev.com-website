@@ -1,0 +1,79 @@
+.skillscontainer {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}
+
+h2 {
+    font-size: 25px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+
+
+/* Media Queries */
+
+/* Extra extra small devices (older Phones) */
+@media screen and (max-width: 410px) {
+    h2 {
+        font-size: 15px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+}
+
+/* Extra small devices (Phones) */
+@media screen and (min-width: 411px) and (max-width: 576px) {
+    h2 {
+        font-size: 17px;
+        margin-left: 85px;
+        margin-right: 85px;
+    }
+
+}
+
+/* Small devices (Tablets) */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    h2 {
+        font-size: 19px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+}
+
+/* Medium devices (Desktops) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    h2 {
+        font-size: 20px;
+        margin-left: 145px;
+        margin-right: 145px;
+    }
+}
+
+/* Large devices (Desktops) */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    h2 {
+        font-size: 25px;
+        margin-left: 245px;
+        margin-right: 245px;
+    }
+
+}
+
+/* Extra large devices (Desktops) */
+@media screen and (min-width: 1201px) {
+    h2 {
+        font-size: 25px;
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+
+}

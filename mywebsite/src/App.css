@@ -17,7 +17,7 @@ body {
 .flex1 {
     flex: 1;
     background-color: black;
-    margin-top: 20px;
+    margin-top: 60px;
     padding: 10px;
     border-radius: 5px;
     display: flex;
@@ -29,29 +29,28 @@ body {
     margin-top: 80px;
     flex: 1;
     background-color: black;
-    /*margin: 10px;*/
-    /*padding: 10px;*/
-    /*border-radius: 5px;*/
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
 
 }
 .flex3 {
     margin-top: 100px;
     flex: 1;
     background-color: black;
-    /*padding: 10px;*/
-    /*border-radius: 5px;*/
+
+
+
+}
+.flex3a {
+    margin-top: 100px;
+    flex: 1;
+    background-color: black;
+
+
 
 }
 .flex4 {
-    margin-top: 60px;
+    margin-top: 30px;
     flex: 1;
     background-color: black;
-    /*margin: 10px;*/
-    /*padding: 10px;*/
-    /*border-radius: 5px;*/
     display: flex;
     justify-content: center;
     align-items: center;

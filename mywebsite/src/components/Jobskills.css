@@ -6,8 +6,6 @@
     align-content: center;
     flex-wrap: wrap;
     flex-direction: row;
-
-
 }
 
 .panel {
@@ -15,7 +13,7 @@
     width: 190px;
     position: relative;
     margin-right: 35px;
-    margin-left: 35px;
+    margin-left:35px;
 }
 
 .panel:last-child {
