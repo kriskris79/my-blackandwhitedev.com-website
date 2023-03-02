@@ -30,26 +30,60 @@ h1 {
     border-right: 0.2rem solid white;
 }
 
-@media(min-width: 1200px) {
+/* Media Queries */
+
+/* Extra extra small devices (older Phones) */
+@media screen and (max-width: 410px) {
+    h1 {
+        font-size: 12px;
+    }
+    .glow-on-hover {
+        width: 200px;
+        margin-right: 10px;
+        font-size: 12px;
+        margin-top: 12px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Extra small devices (Phones) */
+@media screen and (min-width: 411px) and (max-width: 576px) {
+    h1 {
+        font-size: 17px;
+    }
+
+}
+
+/* Small devices (Tablets) */
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    h1 {
+        font-size: 19px;
+    }
+
+}
+
+/* Medium devices (Desktops) */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+/* Large devices (Desktops) */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    h1 {
+        font-size: 25px;
+    }
+
+}
+
+/* Extra large devices (Desktops) */
+@media screen and (min-width: 1201px) {
     h1 {
         font-size: 30px;
     }
-}
-
-@media(max-width: 800px) {
-    .container {
-        padding: 0 1rem;
-    }
-
-    h1 {
-        font-size: 20px;
-    }
-}
-
-@media(max-width: 500px) {
-    h1 {
-        font-size: 20px;
-    }
-
 
 }
