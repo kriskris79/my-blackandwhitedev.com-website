@@ -2,11 +2,11 @@ body {
     margin: 0;
     padding: 0;
 }
-.container {
-    background-color: black;
-    height: 100vh;
-    width: 100vw;
-}
+/*.container {*/
+/*    background-color: black;*/
+/*    height: 100vh;*/
+/*    width: 100vw;*/
+/*}*/
 
 .row {
     display: flex;
@@ -16,7 +16,7 @@ body {
 
 .flex1 {
     flex: 1;
-    background-color: black;
+    /*background-color: black;*/
     margin-top: 60px;
     padding: 10px;
     border-radius: 5px;
@@ -50,7 +50,7 @@ body {
 .flex4 {
     margin-top: 0px;
     flex: 1;
-    background-color: black;
+    /*background-color: black;*/
     display: flex;
     justify-content: center;
     align-items: center;
