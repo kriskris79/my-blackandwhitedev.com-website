@@ -2,7 +2,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     height: 100vh;
-    color: #ccc;
+    color: #ffffff;
     overflow:hidden;
 }
 
@@ -27,7 +27,7 @@ h1 {
 
 /* Cursor */
 .txt-type > .txt {
-    border-right: 0.2rem solid #777;
+    border-right: 0.2rem solid white;
 }
 
 @media(min-width: 1200px) {
