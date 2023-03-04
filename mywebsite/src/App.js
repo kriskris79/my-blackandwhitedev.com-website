@@ -1,10 +1,11 @@
 
 import React from 'react';
 import './App.css';
+import "./scss/generic/_main.scss";
 import Navbar from "./components/Navbar";
-import Jobskills from "./components/Jobskills";
+import JobSkills from "./components/JobSkills";
 import Contact from "./components/Contact";
-import Typewriter from "./components/Typewriter";
+import TypeWriter from "./components/TypeWriter";
 
 const App = () => {
     return (
@@ -13,8 +14,8 @@ const App = () => {
             <div className="container">
                 <div className="row">
                     <div className="flex1"><Navbar/></div>
-                    <div className="flex2"><Typewriter/></div>
-                    <div className="flex3"><Jobskills/></div>
+                    <div className="flex2"><TypeWriter/></div>
+                    <div className="flex3"><JobSkills/></div>
 
 
                     <div className="flex4"><Contact/></div>

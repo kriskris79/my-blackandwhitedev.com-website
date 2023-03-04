@@ -1,5 +1,5 @@
 // import React, { useRef } from "react";
-// import './Contact.css';
+// import './_contact.scss';
 // import emailjs from "@emailjs/browser";
 //
 //
@@ -60,7 +60,7 @@
 
 
 import React, { useRef } from "react";
-import './Contact.css';
+import '../scss/styles/_contact.scss';
 import emailjs from "emailjs-com";
 
 const Contact = () => {

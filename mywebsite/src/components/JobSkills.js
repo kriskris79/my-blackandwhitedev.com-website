@@ -1,7 +1,7 @@
 import React from 'react';
 import './Jobskills.css';
 
-function Jobskills () {
+function JobSkills () {
     return (
 
 
@@ -73,4 +73,4 @@ function Jobskills () {
     );
 }
 
-export default Jobskills;
+export default JobSkills;

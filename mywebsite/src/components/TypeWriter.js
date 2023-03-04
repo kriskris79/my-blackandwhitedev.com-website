@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import './Typewriter.css';
 
-function Typewriter() {
+function TypeWriter() {
     const txtElement = useRef(null);
 
     useEffect(() => {
@@ -80,4 +80,4 @@ function Typewriter() {
     );
 }
 
-export default Typewriter;
+export default TypeWriter;
