@@ -66,7 +66,7 @@ function Typewriter() {
     }, []);
 
     return (
-        <div className="container">
+        <div className="container" id="typewriter">
             <h1>
         <span
             ref={txtElement}
