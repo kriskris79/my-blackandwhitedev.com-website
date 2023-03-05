@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import "../generic/_variables.scss";
+
 .cards {
     display: flex;
     justify-content: center;
@@ -7,7 +8,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     padding-bottom: 50px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: $font-family-source-code-pro
 }
 
 .panel {
@@ -51,7 +52,7 @@
     color: rgba(255, 255, 255, 0.2);
 }
 .panel:hover .border {
-    border: 1px solid darkblue;
+    border: 1px solid $primary-color;
 }
 .panel:hover .slide {
     bottom: 0px;
@@ -86,7 +87,7 @@
     transition: all 1s;
     height: 170px;
     width: 170px;
-    border: 1px solid darkblue;
+    border: 1px solid $primary-color;
     margin: 20px;
 }
 
@@ -154,7 +155,7 @@
 
 .ring:after {
 
-border-color: darkblue;
+border-color: $primary-color;
 }
 
 p {
@@ -173,7 +174,6 @@ p {
 .para {
     bottom: 0;
     font-size: 16px;
-    /*font-family: "Raleway";*/
     padding: 20px;
     margin: 0;
     text-align: center;
@@ -181,7 +181,7 @@ p {
 
 .border {
     position: absolute;
-    border: 1px solid darkblue;
+    border: 1px solid $primary-color;
     height: 160px;
     width: 180px;
     transition: border 1s;

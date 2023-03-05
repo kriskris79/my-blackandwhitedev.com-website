@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
-
+@import "../generic/_variables.scss";
 
 .StyledContactForm {
     display: flex;
@@ -14,26 +13,23 @@
     border: 2px solid #000;
     border-radius: 20px;
     padding: 20px;
-    font-family: 'Source Code Pro', monospace;
-
-
+    font-family: $font-family-source-code-pro;
 }
-
-
 
 input {
     width: 100%;
     height: 35px;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #c3c3c3;
+    border: 1px solid $white-color;
     margin-top: 10px;
     margin-bottom: 20px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: $font-family-source-code-pro;
+    color: $black-color;
 }
 
 input:focus {
-    border: 3px solid darkblue;
+    border: 3px solid $primary-color;
 }
 
 textarea {
@@ -44,17 +40,18 @@ textarea {
     min-height: 100px;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #c3c3c3;
+    border: 1px solid $white-color;
     margin-top: 10px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: $font-family-source-code-pro;
+    color: $black-color;
 }
 
 textarea:focus {
-    border: 2px solid darkblue;
+    border: 2px solid $primary-color;
+    color: $black-color;
 }
 
 label {
-
     color: white;
 }
 
@@ -62,66 +59,52 @@ input[type="submit"] {
     margin-top: 10px;
     margin-bottom: 10px;
     cursor: pointer;
-    background: darkblue;
+    background: $primary-color;
     color: white;
     border: none;
     font-size: 17px;
 }
 
-
-
 /* Media Queries */
 
-/*Extra extra small devices (older Phones)*/
+/* Extra extra small devices (older Phones) */
 @media screen and (max-width: 410px) {
     .StyledContactForm {
-
         width: 300px;
-
-
     }
 }
 
 /* Extra small devices (Phones) */
 @media screen and (min-width: 411px) and (max-width: 576px) {
     .StyledContactForm {
-
         width: 311px;
-
     }
 }
 
 /* Small devices (Tablets) */
 @media screen and (min-width: 577px) and (max-width: 768px) {
     .StyledContactForm {
-
         width: 477px;
-
     }
 }
+
 /* Medium devices (Desktops) */
 @media screen and (min-width: 769px) and (max-width: 992px) {
     .StyledContactForm {
-
         width: 569px;
-
     }
 }
 
 /* Large devices (Desktops) */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
     .StyledContactForm {
-
         width: 793px;
-
     }
 }
 
 /* Extra large devices (Desktops) */
 @media screen and (min-width: 1201px) {
     .StyledContactForm {
-
         width: 800px;
-
     }
 }
