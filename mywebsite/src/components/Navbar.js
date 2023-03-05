@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css';
+import '../scss/styles/_navbar.scss';
 
 function Navbar() {
     const handleNavClick = (id) => {

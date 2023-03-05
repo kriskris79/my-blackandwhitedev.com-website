@@ -1,5 +1,5 @@
 import React from 'react';
-import './Jobskills.css';
+import '../scss/styles/_jobskills.scss';
 
 function JobSkills () {
     return (

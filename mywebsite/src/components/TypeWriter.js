@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import './Typewriter.css';
+import '../scss/styles/_typewriter.scss';
 
 function TypeWriter() {
     const txtElement = useRef(null);

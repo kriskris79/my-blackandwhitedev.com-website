@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './App.css';
+import './scss/styles/_app.scss';
 import "./scss/generic/_main.scss";
 import Navbar from "./components/Navbar";
 import JobSkills from "./components/JobSkills";
