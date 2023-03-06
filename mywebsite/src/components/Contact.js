@@ -1,9 +1,10 @@
-import React, { useRef } from "react";
-import '../scss/styles/_contact.scss';
+import React, { useRef, useState } from "react";
+import "../scss/styles/_contact.scss";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
     const form = useRef();
+    const [isMessageSent, setIsMessageSent] = useState(false);
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -21,19 +22,12 @@ const Contact = () => {
             .then(
                 (result) => {
                     console.log(result.text);
-                    console.log("message sent")
-                    // console.log(form);
-                    // console.log(form.current["0"]);
-                    // form.current["0"].value = "";
-                    // form.current["1"].value = "";
-                    // form.current["2"].value = "";
-                    // form.current["3"].value = "";
-                    // form.current["4"].value = "";
-                    form.current.reset(); // reset the form after sending the email
+                    setIsMessageSent(true);
+                    form.current.reset();
                 },
                 (error) => {
                     console.log(error.text);
-                    console.log("error please sent your message again!")
+                    console.log("error please sent your message again!");
                 }
             );
     };
@@ -42,15 +36,34 @@ const Contact = () => {
         <div className="StyledContactForm" id="contact">
             <form ref={form} onSubmit={sendEmail} id="textform">
                 <label>Your Name</label>
-                <input type="text" name="user_name" aria-label="write your name "  placeholder="Type your name"/>
+                <input
+                    type="text"
+                    name="user_name"
+                    aria-label="write your name "
+                    placeholder="Type your name"
+                />
                 <label>Your Email</label>
-                <input type="email" name="user_email" aria-label="write your email"  placeholder="mqo@example.com"/>
+                <input
+                    type="email"
+                    name="user_email"
+                    aria-label="write your email"
+                    placeholder="mqo@example.com"
+                />
                 <label>Your Message </label>
-                <textarea name="message" aria-label="write the massage  "  placeholder="up to you :) " />
-                <input type="submit" value="Send"   />
+                <textarea
+                    name="message"
+                    aria-label="write the massage  "
+                    placeholder="up to you :) "
+                />
+                <input type="submit" value="Send" />
             </form>
+            {isMessageSent && <p>Your message has been sent successfully!</p>}
         </div>
     );
 };
 
 export default Contact;
+
+
+
+
