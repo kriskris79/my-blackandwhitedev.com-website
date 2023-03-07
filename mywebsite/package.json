@@ -1,5 +1,6 @@
 {
-  "name": "mywebsite",
+  "name": "krisdev",
+  "homepage": "http://blackandwhitedev.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
