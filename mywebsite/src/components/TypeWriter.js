@@ -72,7 +72,7 @@ function TypeWriter() {
             ref={txtElement}
             className="txt-type"
             data-wait="3000"
-            data-words="[&quot;Hi there, I'm Kris.&quot;, &quot;I worked through 600+ hours of bootcamp structure,&quot;, &quot;learning JavaScript, CSS, HTML, React.Js.&quot;, &quot;Eager to tackle web development/design challenges to achieve lasting impacts on user experience.&quot;, &quot;Have a look at my skills below.&quot;]"
+            data-words="[&quot;Hi there, I'm Kris.&quot;, &quot;I'm currently studying IT.&quot;, &quot;I worked through 600+ hours of bootcamp structure,&quot;, &quot;learning JavaScript, CSS, HTML, React.Js.&quot;, &quot;Now, I am expanding my skills into IT domains.&quot;, &quot;Eager to tackle IT, web development/design, web applications, and mobile app challenges.&quot;, &quot;Have a look at my skills below and check out my newest Git repositories.&quot;]"
         ></span>
             </h1>
 
