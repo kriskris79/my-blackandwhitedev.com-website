@@ -67,7 +67,7 @@ function JobSkills () {
                     <div className="card card5"></div>
                     <div className="border">
                         <p className="title">Photoshop</p>
-                        <p1 className="title">Adobe XD</p1>
+                        <p className="title">Adobe XD</p>
                         <div className="slide">
                             <h5 className="para">Photoshop</h5>
                             <h6 className="para">Adobe XD</h6>

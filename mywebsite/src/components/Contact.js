@@ -17,7 +17,7 @@ const Contact = () => {
                 "template_7bjmygn",
                 form.current,
                 // "user id taken from Account API keys public key "
-                "6QhcJ-Zq2pe-_ZHgE"
+                "SShbXr4PGRHwo_G1LEAbz"
             )
             .then(
                 (result) => {
